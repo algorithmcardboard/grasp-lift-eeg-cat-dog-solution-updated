@@ -16,7 +16,7 @@ imports:
 # Meta variables
 Meta:
   file: 'FBLCR_All'
-  cores: 6
+  cores: 1
   subsample: 10
   subsample_test: 1
   cachePreprocessed: False

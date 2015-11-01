@@ -16,7 +16,7 @@ imports:
 # Meta variables
 Meta:
   file: 'FBLC_256pts_alex2'
-  cores: 6
+  cores: 1
   subsample: 10
   subsample_test: 1
   cachePreprocessed: False

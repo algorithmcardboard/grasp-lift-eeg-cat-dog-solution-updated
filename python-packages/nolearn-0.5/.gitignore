@@ -1,0 +1,12 @@
+.coverage
+nolearn.egg-info
+cache/
+
+bin/
+dist/
+docs/_build/
+include/
+lib/
+local
+
+*pyc

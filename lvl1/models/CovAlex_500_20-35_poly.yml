@@ -12,7 +12,7 @@ imports:
 # Meta variables
 Meta:
   file: 'CovsAlex_20-35Hz_500pts_poly'
-  cores: 6
+  cores: 1
   subsample: 10
   subsample_test: 1
   cachePreprocessed: False

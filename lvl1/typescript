@@ -1,0 +1,846 @@
+Script started on Fri 30 Oct 2015 01:10:56 PM PDT
+.ssh/github: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ssos  ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge]1;..EEG-challenge[0m[27m[24m[J[01;32m➜ [01;32m [36mGrasp-and-lift-EEG-challenge [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ssourc e .venv[1m/[0m[0m/bin[1m/[0m[0m/activate[?1l>
+]2;source .venv/bin/activate]1;source[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge]1;..EEG-challenge[0m[27m[24m[J(.venv)[01;32m➜ [01;32m [36mGrasp-and-lift-EEG-challenge [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ccd lvl1[1m/[0m[0m [?1l>
+]2;cd lvl1]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;32m➜ [01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=bbash genAll.sh[1m [0m[0m [?1l>
+]2;bash genAll.sh]1;bash/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovsAlex_7-30Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovsAlex_1-15Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovsAlex_20-35Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovsAlex_70-150Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovsAlex_35Hz_250pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovsAlex_35Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovsERP_Dist
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/mne-0.10.dev0-py2.7.egg/mne/utils.py:495: DeprecationWarning: Function compute_raw_data_covariance is deprecated; "compute_raw_data_covariance" is deprecated and will be removed in MNE-0.11. Please use compute_raw_covariance instead
+  warnings.warn(msg, category=DeprecationWarning)
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/base.py", line 458, in fit_transform
+    return self.fit(X, y, **fit_params).transform(X)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/erp.py", line 172, in fit
+    self.MDM = MDM(metric=self.metric, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+Running val, to be saved in file CovsAlex_7-30Hz_500pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsAlex_7-30Hz_500pts/train_sub1.npy does not exist
+Running val, to be saved in file CovsAlex_1-15Hz_500pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsAlex_1-15Hz_500pts/train_sub1.npy does not exist
+Running val, to be saved in file CovsAlex_20-35Hz_500pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsAlex_20-35Hz_500pts/train_sub1.npy does not exist
+Running val, to be saved in file CovsAlex_70-150Hz_500pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsAlex_70-150Hz_500pts/train_sub1.npy does not exist
+Running val, to be saved in file CovsAlex_35Hz_250pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsAlex_35Hz_250pts/train_sub1.npy does not exist
+Running val, to be saved in file CovsAlex_35Hz_500pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsAlex_35Hz_500pts/train_sub1.npy does not exist
+Running val, to be saved in file CovsERP_Dist_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsERP_Dist/train_sub1.npy does not exist
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovsRafal_35Hz_256pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 134, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 107, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovsRafal_35Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 134, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 107, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovAlex_All
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsAlex_35Hz_250pts/train_sub1.npy does not exist
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file CovAlex_old_All
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsAlex_35Hz_250pts/train_sub1.npy does not exist
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file FBL
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+1, clf 0: 0.90343
+1, clf 1: 0.91799
+1, clf 2: 0.87496
+1, clf 3: 0.55193
+1, clf 4: 0.52833
+Cross Val :   8% |///////////                                                                                                                          | ETA:  0:05:14 Loading data for subject 2...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Traceback (most recent call last):
+  File "genPreds.py", line 252, in <module>
+    zip(labels_test[::subsample_test].T, pred_i.T)])
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/metrics/ranking.py", line 253, in roc_auc_score
+    sample_weight=sample_weight)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/metrics/base.py", line 79, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/metrics/ranking.py", line 244, in _binary_roc_auc_score
+    raise ValueError("Only one class present in y_true. ROC AUC score "
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file FBL_delay100_skip20
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/discriminant_analysis.py:376: UserWarning: Variables are collinear.
+  warnings.warn("Variables are collinear.")
+Aggregating results...
+1, clf 0: 0.88802
+1, clf 1: 0.91465
+1, clf 2: 0.80590
+1, clf 3: 0.44490
+Cross Val :   8% |///////////                                                                                                                          | ETA:  0:53:10 Loading data for subject 2...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Traceback (most recent call last):
+  File "genPreds.py", line 252, in <module>
+    zip(labels_test[::subsample_test].T, pred_i.T)])
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/metrics/ranking.py", line 253, in roc_auc_score
+    sample_weight=sample_weight)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/metrics/base.py", line 79, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/metrics/ranking.py", line 244, in _binary_roc_auc_score
+    raise ValueError("Only one class present in y_true. ROC AUC score "
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file FBLC_256pts_alex2
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsAlex_35Hz_500pts/train_sub1.npy does not exist
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running val, to be saved in file FBLCR_256
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File val//CovsRafal_35Hz_256pts/train_sub1.npy does not exist
+Running val, to be saved in file RNN_FB_delay4000
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Traceback (most recent call last):
+  File "genPreds_RNN.py", line 179, in <module>
+    model.fit(trainPreprocessed,labels_train,testPreprocessed,labels_test)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/ensembling/NeuralNet.py", line 81, in fit
+    self.model = buildNN(self.architecture, self.training_params, input_dim)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/utils/nn.py", line 44, in buildNN
+    model.add(GRU(current_units,layer_params['num_units'], return_sequences=layer_params['next_GRU']))
+  File "build/bdist.linux-x86_64/egg/keras/layers/containers.py", line 37, in add
+  File "build/bdist.linux-x86_64/egg/keras/layers/core.py", line 32, in set_previous
+  File "build/bdist.linux-x86_64/egg/keras/layers/core.py", line 82, in output_shape
+  File "build/bdist.linux-x86_64/egg/keras/layers/core.py", line 65, in input_shape
+Exception: Layer is not connected. Did you forget to set "input_shape"?
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovsAlex_7-30Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovsAlex_1-15Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovsAlex_20-35Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovsAlex_70-150Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovsAlex_35Hz_250pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovsAlex_35Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 89, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 69, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovsERP_Dist
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/mne-0.10.dev0-py2.7.egg/mne/utils.py:495: DeprecationWarning: Function compute_raw_data_covariance is deprecated; "compute_raw_data_covariance" is deprecated and will be removed in MNE-0.11. Please use compute_raw_covariance instead
+  warnings.warn(msg, category=DeprecationWarning)
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/base.py", line 458, in fit_transform
+    return self.fit(X, y, **fit_params).transform(X)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/erp.py", line 172, in fit
+    self.MDM = MDM(metric=self.metric, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+Running test, to be saved in file CovsAlex_7-30Hz_500pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsAlex_7-30Hz_500pts/train_sub1.npy does not exist
+Running test, to be saved in file CovsAlex_1-15Hz_500pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsAlex_1-15Hz_500pts/train_sub1.npy does not exist
+Running test, to be saved in file CovsAlex_20-35Hz_500pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsAlex_20-35Hz_500pts/train_sub1.npy does not exist
+Running test, to be saved in file CovsAlex_70-150Hz_500pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsAlex_70-150Hz_500pts/train_sub1.npy does not exist
+Running test, to be saved in file CovsAlex_35Hz_250pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsAlex_35Hz_250pts/train_sub1.npy does not exist
+Running test, to be saved in file CovsAlex_35Hz_500pts_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsAlex_35Hz_500pts/train_sub1.npy does not exist
+Running test, to be saved in file CovsERP_Dist_poly
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsERP_Dist/train_sub1.npy does not exist
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovsRafal_35Hz_256pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 134, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 107, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovsRafal_35Hz_500pts
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Traceback (most recent call last):
+  File "genPreds.py", line 166, in <module>
+    trainPreprocessed = preprocess.fit_transform(data_train, labels_train)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/pipeline.py", line 185, in fit_transform
+    return self.steps[-1][-1].fit_transform(Xt, y, **fit_params)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 134, in fit_transform
+    self.fit(X, y)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/preprocessing/covs_alex.py", line 107, in fit
+    self.mdm = MDM(metric=self.metric_mean, n_jobs=self.n_jobs)
+TypeError: __init__() got an unexpected keyword argument 'n_jobs'
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovAlex_All
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsAlex_35Hz_250pts/train_sub1.npy does not exist
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file CovAlex_old_All
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsAlex_35Hz_250pts/train_sub1.npy does not exist
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file FBL
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :   8% |///////////                                                                                                                          | ETA:  0:28:26 Loading data for subject 2...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :  16% |----------------------                                                                                                               | ETA:  0:28:28 Loading data for subject 3...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :  25% |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\                                                                                                    | ETA:  0:24:15 Loading data for subject 4...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :  33% |||||||||||||||||||||||||||||||||||||||||||||                                                                                         | ETA:  0:21:20 Loading data for subject 5...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :  41% |///////////////////////////////////////////////////////                                                                              | ETA:  0:18:29 Loading data for subject 6...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :  50% |------------------------------------------------------------------                                                                   | ETA:  0:16:03 Loading data for subject 7...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :  58% |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\                                                        | ETA:  0:13:26 Loading data for subject 8...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :  66% |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                                             | ETA:  0:10:47 Loading data for subject 9...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :  75% |///////////////////////////////////////////////////////////////////////////////////////////////////                                  | ETA:  0:08:02 Loading data for subject 10...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :  83% |--------------------------------------------------------------------------------------------------------------                       | ETA:  0:05:23 Loading data for subject 11...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val :  91% |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\            | ETA:  0:02:42 Loading data for subject 12...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Training models...
+Aggregating results...
+Cross Val : 100% ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ETA:  0:00:00             Time
+FBL  1979.060009
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file FBL_delay100_skip20
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+
+
+
+
+
+
+
+
+Training models...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/discriminant_analysis.py:376: UserWarning: Variables are collinear.
+  warnings.warn("Variables are collinear.")
+
+
+
+
+
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr                                
+
+
+
+
+
+
+
+
+
+
+^[[C
+
+
+
+
+
+genAll.sh: line 3: 32941 Killed                  python genPreds.py models/FBL_delay.yml $i
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file FBLC_256pts_alex2
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsAlex_35Hz_500pts/train_sub1.npy does not exist
+/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/scikit_learn-0.17b1-py2.7-linux-x86_64.egg/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+Running test, to be saved in file FBLCR_256
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Post Preprocessing data...
+Traceback (most recent call last):
+  File "genPreds.py", line 209, in <module>
+    raise ValueError("File %s does not exist" % featFile)
+ValueError: File test//CovsRafal_35Hz_256pts/train_sub1.npy does not exist
+Running test, to be saved in file RNN_FB_delay4000
+Cross Val :   0% |                                                                                                                                    | ETA:  --:--:-- Loading data for subject 1...
+Preprocessing Training data...
+Preprocessing Test data...
+Traceback (most recent call last):
+  File "genPreds_RNN.py", line 179, in <module>
+    model.fit(trainPreprocessed,labels_train,testPreprocessed,labels_test)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/ensembling/NeuralNet.py", line 81, in fit
+    self.model = buildNN(self.architecture, self.training_params, input_dim)
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/utils/nn.py", line 44, in buildNN
+    model.add(GRU(current_units,layer_params['num_units'], return_sequences=layer_params['next_GRU']))
+  File "build/bdist.linux-x86_64/egg/keras/layers/containers.py", line 37, in add
+  File "build/bdist.linux-x86_64/egg/keras/layers/core.py", line 32, in set_previous
+  File "build/bdist.linux-x86_64/egg/keras/layers/core.py", line 82, in output_shape
+  File "build/bdist.linux-x86_64/egg/keras/layers/core.py", line 65, in input_shape
+Exception: Layer is not connected. Did you forget to set "input_shape"?
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+Traceback (most recent call last):
+  File "genPreds_CNN_Tim.py", line 26, in <module>
+    from nolearn.lasagne import BatchIterator, NeuralNet, TrainSplit
+  File "/home/anirudhan/workspace/Grasp-and-lift-EEG-challenge/.venv/local/lib/python2.7/site-packages/nolearn-0.5-py2.7.egg/nolearn/lasagne.py", line 9, in <module>
+    from lasagne.layers import get_all_layers
+ImportError: No module named lasagne.layers
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J(.venv)[01;31m➜ [27m[01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ddeactivate[?1l>
+]2;deactivate]1;deactivate[1m[7m%[27m[1m[0m                                                                                                                                                                       ]2;anirudhan@ubuntu: ~/workspace/Grasp-and-lift-EEG-challenge/lvl1]1;..hallenge/lvl1[0m[27m[24m[J[01;32m➜ [01;32m [36mlvl1 [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=eexit[?1l>
+]2;exit]1;exit
+Script done on Fri 30 Oct 2015 05:48:45 PM PDT

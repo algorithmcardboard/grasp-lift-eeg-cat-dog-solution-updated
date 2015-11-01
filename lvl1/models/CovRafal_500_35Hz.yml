@@ -21,7 +21,7 @@ imports:
 # Meta variables
 Meta:
   file: 'CovsRafal_35Hz_500pts'
-  cores: 6
+  cores: 1
   subsample: 10
   subsample_test: 1
   cachePreprocessed: True
